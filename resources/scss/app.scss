@@ -21,8 +21,18 @@ ul {
     font-weight: bold;
 }
 
-
-
+.ms_footer {
+    h5 {
+        color: white;
+    }
+    ul {
+        text-decoration: none;
+        list-style: none;
+        li {
+            a {color: white;}
+        }
+    }
+}
 
 // HOVER IMG
 

@@ -30,10 +30,9 @@
     </main>
 
 
-
-    <footer>
+    {{-- Footer --}}
         @include('partials.footer')
-    </footer>
+    {{-- Footer --}}
 </body>
 
 </html>
