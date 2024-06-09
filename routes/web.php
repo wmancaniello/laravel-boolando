@@ -9,7 +9,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $array = config("products.products");
+
+    return view('home', ['products' => $array]);
 })->name('home');
 
 Route::get('/uomo', function () {

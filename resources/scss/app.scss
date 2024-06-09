@@ -15,3 +15,35 @@ ul {
         }
     }
 }
+
+.ms_red {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+// HOVER IMG
+
+.ms_image {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.ms_image .card-img {
+    width: 100%;
+}
+
+.ms_image .back {
+    display: none;
+}
+
+.ms_image:hover .front {
+    display: none;
+}
+
+.ms_image:hover .back {
+    display: block;
+}

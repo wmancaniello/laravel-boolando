@@ -19,19 +19,21 @@
 </head>
 
 <body>
-    {{-- Header --}}
-    @include('partials.header')
-    {{-- /Header --}}
+
+    <header>
+        @include('partials.header')
+    </header>
+
 
     <main>
         @yield('content')
     </main>
 
-    <hr>
 
-    {{-- Footer --}}
-    @include('partials.footer')
-    {{-- /Footer --}}
+
+    <footer>
+        @include('partials.footer')
+    </footer>
 </body>
 
 </html>
