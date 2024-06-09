@@ -1,2 +1,17 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+header {
+    background-color: #fa6900;
+
+    .logo {
+        width: 10%;
+    }
+}
+
+ul {
+    li {
+        a {
+            text-decoration: none;
+        }
+    }
+}
