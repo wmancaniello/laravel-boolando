@@ -1,38 +1,13 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import "./partials/header.scss";
+@import "./partials/footer.scss";
 
 
-header {
-    background-color: #fa6900;
-
-    .logo {
-        width: 10%;
-    }
-}
-
-ul {
-    li {
-        a {
-            text-decoration: none;
-        }
-    }
-}
+// HOME
 
 .ms_red {
     color: red;
     font-weight: bold;
-}
-
-.ms_footer {
-    h5 {
-        color: white;
-    }
-    ul {
-        text-decoration: none;
-        list-style: none;
-        li {
-            a {color: white;}
-        }
-    }
 }
 
 // HOVER IMG

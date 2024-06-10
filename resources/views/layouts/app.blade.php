@@ -10,6 +10,7 @@
     <!-- Includiamo gli assets con la direttiva vite -->
     @vite('resources/js/app.js')
 
+
     {{-- FONTAWESOME --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -31,7 +32,7 @@
 
 
     {{-- Footer --}}
-        @include('partials.footer')
+    @include('partials.footer')
     {{-- Footer --}}
 </body>
 
