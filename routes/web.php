@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomePagecontroller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -8,11 +9,7 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
-Route::get('/', function () {
-    $array = config("products.products");
-
-    return view('home', ['products' => $array]);
-})->name('home');
+Route::get('/', [HomePagecontroller::class, 'index'])->name('home');
 
 Route::get('/uomo', function () {
     return view('uomo');

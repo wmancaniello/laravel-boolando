@@ -4,6 +4,8 @@
             class="card-img front"alt="{{ $product['name'] }}">
         <img src="{{ Vite::asset('resources/img/' . $product['backImage']) }}"
             class="card-img back"alt="{{ $product['name'] }}">
+        <span class="discount">Sconto(?)</span>
+        <span class="detail">Sostenibilità(?)</span>
     </div>
     <div class="card-body">
         <div class="ms_info d-flex flex-column">

@@ -2,12 +2,13 @@ header {
     background-color: #fa6900;
 
     .logo {
-        width: 10%;
+        max-width: 150px;
     }
 }
 
 ul {
     li {
+        font-size: 1.3rem;
         a {
             text-decoration: none;
         }
