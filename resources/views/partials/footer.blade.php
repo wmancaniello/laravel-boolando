@@ -8,7 +8,7 @@
                     <li><a href="#">Diritto di recesso</a></li>
                 </ul>
         </div>
-        <div class="ms_footer d-flex flex-column justify-content-center fw-bold fs-5">
+        <div class="ms_footer d-flex flex-column justify-content-center fw-bold">
             <h5>Trovaci anche su</h5>
             <ul class="d-flex gap-2 justify-content-center">
                 <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
